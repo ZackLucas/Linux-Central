@@ -1,0 +1,17 @@
+<div class="tab-pane bg-light" id="navItem03" role="tabpanel">
+        <div class="row"  >
+            <div class="col-sm-8 ml-5">
+                <div class="embed-responsive embed-responsive-16by9 ml-5">
+                    <iframe class="embed-responsive-item" width="560" height="315"
+                        src="https://www.youtube.com/embed/tBRqx3HQG0o" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-2 ml-5">Nesta aula você irá aprender a criar um Nav Pills centralizado,
+                também
+                acompanhará a novidade no Jumbotron do Bootstrap 4 e ainda verá como adicionar um
+                vídeo
+                do YouTube em site de forma responsiva corretamente utilizando Embed.</div>
+        </div>
+    </div>
