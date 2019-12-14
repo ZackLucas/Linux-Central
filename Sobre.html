@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/compiler/sobre.css">
+    <link rel="shortcut icon" href="./img/TUX.png" type="image/x-icon">
+    <title>Sobre</title>
+</head>
+
+<body>
+    <!-- Login do site -->
+    <!-- janela modal de login do site -->
+    <div class="modal fade" id="loginmodal" role="dialog">
+        <div class="modal-dialog modal-mds" role="dialog">
+            <div class="modal-content">
+                <div class="box-parent-login">
+                    <div class="well bg-white box-login">
+                        <form role="form">
+                            <fieldset>
+                                <div class="container">
+                                    <div class="row">
+                                        <h1 class=" mx-auto mb-5">CentraLinux</h1>
+                                        <div class="col-9 mx-auto">
+                                            <div class="form-group ls-login-user">
+                                                <label for="userLogin">Usuário</label>
+                                                <input class="form-control ls-login-bg-user input-lg" id="userLogin"
+                                                    type="text" aria-label="Usuário" placeholder="Usuário">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-9 mx-auto mt-2">
+                                            <div class="form-group ls-login-password">
+                                                <label for="userPassword">Senha</label>
+                                                <input class="form-control ls-login-bg-password input-lg"
+                                                    id="userPassword" type="password" aria-label="Senha"
+                                                    placeholder="Senha">
+                                                <a href="#" class="ls-login-forgot">Esqueci minha senha</a>
+                                                <input type="submit" value="Entrar"
+                                                    class="btn btn-primary btn-lg btn-block btn-sm mt-4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="txt-center ls-login-signup">Não possui um usuário na Central Linux
+                                        <a href="#">Cadastre-se agora</a>
+                                    </p>
+                                    <div class="container">
+                                        <div class="row">
+                                            <!-- Login por redes sociais -->
+                                            <h3 class="mx-auto">Redes Sociais</h3>
+                                            <div class="col-12">
+                                                <ul class="nav nav-pills flex-column" id="pillsNav" role="tablist">
+                                                    <li class="nav-item  mx-auto">
+                                                        <a href="#navItem01" class="nav-link" id="navPills01"
+                                                            data-toggle="pill">
+                                                            <i class="fa fa-facebook-official fa-2x"
+                                                                aria-hidden="true"></i> Facebook
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item  mx-auto">
+                                                        <a href="#navItem02" class="nav-link" id="navPills02"
+                                                            data-toggle="pill">
+                                                            <i class="fa fa-twitter-square fa-2x text-info"
+                                                                aria-hidden="true"></i> Twitter
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item  mx-auto">
+                                                        <a href="#navItem03" class="nav-link" id="navPills03"
+                                                            data-toggle="pill">
+                                                            <i class="fa fa-linkedin-square fa-2x text-success"
+                                                                aria-hidden="true"></i> Linkedin
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Top do site onde ficam o carousel e a barra principal do site -->
+    <header id="inicio">
+        <!-- Parte onde ficam a barra de busca o nome do site e as guias social -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-info p-2">
+            <div class="container">
+                <div class="col-3" id="section-1">
+                    <a href="#" class="navbar-brand mx-auto" data-toggle="modal"
+                        data-target="#loginmodal"><img src="./img/USUARIO.png" class="w-75"></a>
+                </div>
+                <!-- botão que somente aparece qnd a tela fca de tamanho md ou sm -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-lg-9 col-md-12 col-sm-12">
+                    <div class="collapse navbar-collapse" id="navbarSite">
+                        <div class="container h-100">
+                            <div class="d-flex justify-content-center h-100">
+                                <div class="searchbar">
+                                    <input class="search_input" type="text" name="" placeholder="Search...">
+                                    <a href="#" class="search_icon"><i class="fa fa-search fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- aba social da pagina -->
+                        <ul class="navbar-nav ml-auto mx-auto">
+                            <li class="navbar-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                    id="navDropSite">Social</a>
+                                <div class="dropdown-menu bg-dark">
+                                    <a href="#" class="dropdown-item bg-primary my-1"><i
+                                            class="fa fa-facebook-square fa-1x ml-2" aria-hidden="true">
+                                            FaceBook</i></a>
+                                    <a href="#" class="dropdown-item bg-info my-1"><i
+                                            class="fa fa-twitter-square fa-1x ml-2" aria-hidden="true"></i>
+                                        Twitter</a>
+                                    <a href="#" class="dropdown-item bg-warning my-1"><i
+                                            class="fa fa-instagram fa-1x ml-2" aria-hidden="true"></i> Instagram</a>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-10-col-lg-8 mt-5 mb-5">
+                <h1 class="display-4 text-center">Sobre:</h1>
+                <h2 class="display-5 text-center">A idéia por tras do one page!!!</h2>
+                <p>A intenção do site era ser simples e de facil acesso para os usuario sem comprometer as funcionalidades
+                    originais do site.
+                    Porem um site one page de cera forma tem uma estrutura bem diferente da proposta, porem ela adciona uma facilidade
+                    gigantesca ao site já que com ele voçe consegue ver tudo o que o site faz tendo apenas que navegar no menu FIXO no topo
+                </p>
+                <h1 class="display-4 text-center">Central Linux</h1>
+                <h2 class="display-5 text-center">A idéia!!</h2>
+                <p>
+                    A idéia por traz do Central linux era condicionar às pessoas um site onde você pode baixar redistribuições
+                    Linux, conhecidas e pessoais, até o momento só existem as principais versões, porem a idéia é que a comunidade
+                    alimente o site com suas próprias distribuições.
+                    Isso faria com que o site ficasse inteiramente completo, outra era poder colocar em visualização sites com o conteudo 
+                    alinhado com a comunidade, coloca-los mais em evidençia, por isso á parte comunidade é tão importante.
+                    E por ultimo o social area uma grande conquista para a comunidade que ama linux poder intaragir com pessoas no espaço
+                    do site é algo surreal já que a troca de informações no site pode aumentar a velocidade com a a qual o sistema Linux é
+                    aprimorada, já que a troca de informções e rapida e em um ambiente Propicio para o desenvolvimento.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <a class="btn btn-success" href="./index.html">Voltar para pagina inicial</a>
+    </div>
+    <hr>
+    <!-- Footer -->
+    <footer id="Mais">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 footer-about wow fadeInUp">
+                        <img class="logo-footer w-25" src="./img/TUXX.png" alt="logo-footer" data-at2x="./fa-instagram">
+                        <p>
+                            Nossa companhia tem por objetivo levar o linux em qualquer versão que
+                            seja para pessoas que realmente se importam com um bom OS.
+                        </p>
+                        <p><a href="#">Our Team</a></p>
+                    </div>
+                    <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
+                        <h3>Contact</h3>
+                        <p><i class="fa fa-map-marker fa-1x text-danger"></i>. Rua Marcelino Pinto
+                            Teixeira,529 - Parque Industrial Ramos de Freitas CEP 06816-000 - Embu das Artes/SP
+                        </p>
+                        <p><i class="fa fa-phone fa-1x text-success"></i> Telefone: (11) 4778-1168
+                        </p>
+                        <!-- Quer fazer um curso? Faça na ETEC de Embu das Artes ps: Recomendo o curso de Desenvolvimento de Sistemas -->
+                        <p><i class="fa fa-envelope fa-1x text-warning"></i> Email: <a
+                                href="https://www.vestibulinhoetec.com.br/unidades-cursos/escola.asp?c=394">Fale
+                                conosco:</a>
+                        </p>
+                        <p><i class="fa fa-skype text-primary"></i> Skype: Diegão god</p>
+                        <p><i class="fa fa-skype text-primary"></i> Skype: Luiz god</p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 footer-social wow fadeInUp flex-column">
+                        <h3>Follow us</h3>
+                        <p>
+                            <a href="#"><i class="fa fa-facebook text-primary fa-2x mr-1"></i></a>
+                            <a href="#"><i class="fa fa-twitter text-info fa-2x mr-1"></i></a>
+                            <a href="#"><i class="fa fa-google-plus text-danger fa-2x mr-1"></i></a>
+                            <a href="#"><i class="fa fa-instagram text-warning fa-2x mr-1"></i></a>
+                            <a href="#"><i class="fa fa-pinterest text-danger fa-2x mr-1"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play text-danger fa-2x mr-1"
+                                    aria-hidden="true"></i></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom bg-gradient-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 footer-copyright mt-2">
+                        <p>&copy; CentralLinux <a class="text-danger" href="./index.html">CNLinux</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Bootstrap JS (popper.js incluso)-->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./node_modules/jquery/dist/index.js"></script>
+</body>
+
+</html>
