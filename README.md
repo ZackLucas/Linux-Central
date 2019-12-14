@@ -7,4 +7,4 @@ Este Site é meramente para aprendizado tanto de técnologias e ferramentas, qua
 
 Os conteudos colocados aqui não possuem a intenção de enviar conteudo não autorizado.
 
-Pagina somente para Estudos Proprios.
+Pagina somente para Estudos Pessoal.
